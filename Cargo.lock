@@ -513,14 +513,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "lodestone-scraper"
-version = "0.1.0"
-dependencies = [
- "reqwest",
- "scraper",
-]
-
-[[package]]
 name = "log"
 version = "0.4.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -922,6 +914,14 @@ dependencies = [
  "libc",
  "linux-raw-sys",
  "windows-sys 0.52.0",
+]
+
+[[package]]
+name = "ruststone"
+version = "0.1.0"
+dependencies = [
+ "reqwest",
+ "scraper",
 ]
 
 [[package]]
